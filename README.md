@@ -18,7 +18,7 @@ The City Hotel and Resort Hotel faces a significant challenge with booking cance
 
 ✅ Analyze seasonal trends and customer behavior.
 
-✅ Analyze how variables like lead time, deposit type, customer type, and ADR (Average Daily Rate) impact cancellations.
+✅ Analyze how variables like deposit type, customer type, and ADR (Average Daily Rate) impact cancellations.
 
 ✅ Compare cancellation trends across City Hotels and Resort Hotels.
 
