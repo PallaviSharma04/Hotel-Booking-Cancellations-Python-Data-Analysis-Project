@@ -41,7 +41,7 @@ This analysis was conducted using:
   - `Pandas` – Data manipulation and preprocessing.
   - `Matplotlib & Seaborn` – Data visualization.
  
-## Analytical Project
+## Analytical Approach
 
 **1: Data Loading and Cleaning**
 
@@ -52,17 +52,35 @@ This analysis was conducted using:
 - Outliers in ADR (negative values and extreme high values) were identified and filtered out.
 
 **2: Exploratory Data Analysis (EDA)**
+
 Key analysis and visualizations included:
 
-- Reservation Trends: Monthly cancellation patterns to identify peak cancellation periods.
-- Hotel-wise Cancellation Rates: Comparison of cancellations between City Hotels and Resort Hotels.
-- Lead Time Impact: Analyzing how booking lead time affects cancellation likelihood.
-- Market Segments & Customer Type: Identifying high-risk segments with frequent cancellations.
-- Deposit Type Influence: Examining how different deposit policies impact cancellation rates.
-- ADR Trends Over Time: Comparing ADR fluctuations between 2016 and September 2017 to identify pricing trends.
+![Reservation Status Count](https://github.com/user-attachments/assets/cf598307-f666-4b79-8e34-c36d52873d7a)
 
-Some interesting code worked with :
+> The Bar graph shows that the overall cancellation rate is **37%** which means more than one-third of all bookings are cancelled. This is a high cancellation rate leading to revenue loss and insufficiencies in hotel operations.
 
+![Hotel wise Reservation Status Comparison](https://github.com/user-attachments/assets/edcbc4ba-0dd8-4400-afb3-be2c3d4f248e)
 
+> **City hotels** face a much higher cancellation rate (**42%**) compared to resort hotels (**28%**). Also the bookings in City hotel are more as compared to Resort hotels. It is possible that Resort hotels are more expensive than City hotels.
 
+![Hotel wise ADR trends](https://github.com/user-attachments/assets/4ca74033-6cb2-4a00-83c4-9270c4ce6296)
 
+> It can be observed from the line graph above that on most days the ADR for City hotel is lower that that of Resort hotel. **City hotel** have **lower price variability**, meaning more stable rates. **Resort hotel** have **higher ADR fluctuations**, likely due to seasonal pricing and peak vacation periods.
+
+ 
+![Reservation Status per Month](https://github.com/user-attachments/assets/4214d552-e94d-44f6-a699-b13addf6b6b2)
+
+> The grouped bar graph above shows the monthly reservation trends. It can be observed that the **highest number of confirmed reservations** as well as the **lowest cancellations** occur in the month of **August**. Whereas, **January** is the month with the **highest number of cancellations**. Could this variation in reservation status be influenced by pricing?
+
+![Monthly ADR trends](https://github.com/user-attachments/assets/d82f86e0-3e0a-4826-8b83-ba43f5bc2990)
+
+From the monthly ADR trends we observe that low ADR in August is driving higher bookings and lowest cancellations, hence it confirms that price sensitivity plays a significant role in customer decisions. Whereas the high cancellation rate in January suggests that customers might be making tentative bookings but canceling due to high prices. This could also indicate that travelers compare prices with competitors and opt for cheaper alternatives.
+
+![ADR trends 2016-17](https://github.com/user-attachments/assets/2dc2ea2e-e77a-4609-8f57-a9caa9218025)
+
+> Analyzing the relation between mean adr and reservation status indicates that canceled reservations have a higher ADR compared to confirmed reservations.The line graph further confirms our analysis that higher rate of cancellation is mainly due to higher prices.
+> Now, let's identify the countries with the highest number of cancellations. The pie chart below displays the top 10 countries with the most cancellations.
+
+![Top 10 countries](https://github.com/user-attachments/assets/82f2d51b-8d18-4b51-8f50-238a715fc555)
+
+Portugal accounts for the highest number of cancellations, making up 70% of the total cancellations.
