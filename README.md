@@ -5,6 +5,7 @@
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Project Goals](#project-goals)
+- [Dataset](#dataset)
 - [Tools & Technology](#tools-and-technology)
 - [Analytical Approach](#analytical-approach)
 - [Business Insights](#business-insights)
@@ -24,6 +25,13 @@ The City Hotel and Resort Hotel faces a significant challenge with booking cance
 
 ✅ Provide actionable data-driven insights and recommendations to reduce cancellations.
 
+## Dataset
+Download the dataset for this project from the following link:
+
+**Data Source**: <a href ="https://github.com/PallaviSharma04/Hotel-Booking-Cancellations-Python-Data-Analysis-Project/blob/main/Hotel%20Booking%20Data%20Analysis%20using%20Python%20.ipynb"> Dataset </a>
+
+**Data Range**: July 2015 to Sep 2017
+
 ## Tools and Technology
 This analysis was conducted using:
 
@@ -32,7 +40,28 @@ This analysis was conducted using:
 - **Libraries Used**:
   - `Pandas` – Data manipulation and preprocessing.
   - `Matplotlib & Seaborn` – Data visualization.
+ 
+## Analytical Project
 
-**Data Source**: <a href ="[https://github.com/PallaviSharma04/Sales-and-Customer-Dashboard-Tableau-Project/tree/main/Dataset](https://github.com/PallaviSharma04/Hotel-Booking-Cancellations-Python-Data-Analysis-Project/blob/main/Hotel%20Booking%20Data%20Analysis%20using%20Python%20.ipynb)"> Dataset </a>
+**1: Data Loading and Cleaning**
+
+- The dataset was loaded into a Pandas DataFrame.
+- Unnecessary columns ("agent" and "company") were dropped due to excessive missing values.
+- 488 rows with missing country data were removed.
+- Outliers in ADR (negative values and extreme high values) were identified and filtered out.
+
+**2: Exploratory Data Analysis (EDA)**
+Key analysis and visualizations included:
+
+- Reservation Trends: Monthly cancellation patterns to identify peak cancellation periods.
+- Hotel-wise Cancellation Rates: Comparison of cancellations between City Hotels and Resort Hotels.
+- Lead Time Impact: Analyzing how booking lead time affects cancellation likelihood.
+- Market Segments & Customer Type: Identifying high-risk segments with frequent cancellations.
+- Deposit Type Influence: Examining how different deposit policies impact cancellation rates.
+- ADR Trends Over Time: Comparing ADR fluctuations between 2016 and September 2017 to identify pricing trends.
+
+Some interesting code worked with :
+
+
 
 
