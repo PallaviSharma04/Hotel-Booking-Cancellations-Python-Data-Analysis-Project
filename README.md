@@ -8,7 +8,6 @@
 - [Dataset](#dataset)
 - [Tools & Technology](#tools-and-technology)
 - [Analytical Approach](#analytical-approach)
-- [Business Insights](#business-insights)
 - [Recommendations](#business-recommendations)
 
 ## Project Overview  
@@ -74,7 +73,7 @@ Key analysis and visualizations included:
 
 ![Monthly ADR trends](https://github.com/user-attachments/assets/d82f86e0-3e0a-4826-8b83-ba43f5bc2990)
 
-From the monthly ADR trends we observe that low ADR in August is driving higher bookings and lowest cancellations, hence it confirms that price sensitivity plays a significant role in customer decisions. Whereas the high cancellation rate in January suggests that customers might be making tentative bookings but canceling due to high prices. This could also indicate that travelers compare prices with competitors and opt for cheaper alternatives.
+> From the monthly ADR trends we observe that low ADR in August is driving higher bookings and lowest cancellations, hence it confirms that price sensitivity plays a significant role in customer decisions. Whereas the high cancellation rate in January suggests that customers might be making tentative bookings but canceling due to high prices. This could also indicate that travelers compare prices with competitors and opt for cheaper alternatives.
 
 ![ADR trends 2016-17](https://github.com/user-attachments/assets/2dc2ea2e-e77a-4609-8f57-a9caa9218025)
 
@@ -105,3 +104,17 @@ From the monthly ADR trends we observe that low ADR in August is driving higher 
 ![Lead time and Cancellations](https://github.com/user-attachments/assets/e8d319f6-f103-402f-ba7d-76ddcac5a8eb)
 
 > The strip plot analyzing lead time and cancellations reveals a weak to moderate positive correlation. This indicates that while cancellations tend to increase as lead time extends, the relationship is not particularly strong.
+
+## Business Recommendations
+
+Based on the Exploratory Data Analysis (EDA), the following strategies can help reduce cancellations and optimize revenue:
+
+- **1. Pricing Strategies to Reduce Cancellations**: Higher ADR (Average Daily Rate) correlates with increased cancellations. Hotels should should adjust their pricing models that revises rates based on demand trends and seasonality. 
+- **2. Strategic Discounts for Resort Hotels**: Resort hotels observes a higher cancellation rate compared to City hotels. To attract more customers, they should introduce weekend and holiday discounts, as well as early booking incentives to reduce last-minute cancellations.
+- **3. Addressing Seasonal Cancellation Trends**: January sees the highest cancellations, while August has the lowest. Hotels should launch marketing campaigns in January to boost bookings (e.g., New Year promotions) also analyzing competitor rates in January can help set a more competitive ADR. Additionally they can implement stricter booking policies during peak months (August) to maximize revenue and limit no-shows.
+- **4. Improve Quality of Services in Key Locations**: Since Portugal experiences a high cancellation rate, hotels in this region should enhance service quality, customer engagement, and brand trust to encourage more confirmed bookings.
+- **5. Managing High-Risk Market Segments**: Group and OTA bookings show the highest cancellation rates. Hotels should require deposits or enforce stricter cancellation policies for Online bookings also encourage direct bookings by offering exclusive discounts or value-added perks (e.g., free breakfast, late check-outs).
+- **6. Revising Deposit and Payment Policies**: Introducing a partial deposit policy instead of a fully no-deposit option may help lower cancellations while maintaining customer flexibility. Discounts or perks (e.g., free breakfast, room upgrades) for non-refundable bookings can encourage more secure reservations.
+
+**Final Takeaway**:
+> By adopting data-driven pricing, strengthening booking policies, and implementing targeted marketing strategies, hotels can effectively reduce cancellations, improve revenue, and enhance customer satisfaction.
