@@ -80,11 +80,11 @@ From the monthly ADR trends we observe that low ADR in August is driving higher 
 
 > Analyzing the relation between mean adr and reservation status indicates that canceled reservations have a higher ADR compared to confirmed reservations.The line graph further confirms our analysis that **the high cancellation rate is primarily driven by higher prices.**.
 
-Now, let's identify the countries with the highest number of cancellations. The pie chart below displays the top 10 countries with the most cancellations.
 
 ![Top 10 countries](https://github.com/user-attachments/assets/82f2d51b-8d18-4b51-8f50-238a715fc555)
 
-> **Portugal** accounts for the highest number of cancellations, making up 70% of the total cancellations.
+> Now, let's identify the countries with the highest number of cancellations. The pie chart above displays the top 10 countries with the most cancellations.
+**Portugal** accounts for the highest number of cancellations, making up 70% of the total cancellations.
 
 ![Cancellations by market segment](https://github.com/user-attachments/assets/961534f6-0419-49f5-ba03-cc4c3654391c)
 
