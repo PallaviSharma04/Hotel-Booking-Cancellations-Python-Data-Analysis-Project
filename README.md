@@ -51,7 +51,7 @@ This analysis was conducted using:
 - 488 rows with missing country data were removed.
 - Outliers in ADR (negative values and extreme high values) were identified and filtered out.
 
-**2: Exploratory Data Analysis (EDA)**
+**2: Exploratory Data Analysis (EDA) and Insights**
 
 Key analysis and visualizations included:
 
@@ -78,9 +78,30 @@ From the monthly ADR trends we observe that low ADR in August is driving higher 
 
 ![ADR trends 2016-17](https://github.com/user-attachments/assets/2dc2ea2e-e77a-4609-8f57-a9caa9218025)
 
-> Analyzing the relation between mean adr and reservation status indicates that canceled reservations have a higher ADR compared to confirmed reservations.The line graph further confirms our analysis that higher rate of cancellation is mainly due to higher prices.
-> Now, let's identify the countries with the highest number of cancellations. The pie chart below displays the top 10 countries with the most cancellations.
+> Analyzing the relation between mean adr and reservation status indicates that canceled reservations have a higher ADR compared to confirmed reservations.The line graph further confirms our analysis that **the high cancellation rate is primarily driven by higher prices.**.
+
+Now, let's identify the countries with the highest number of cancellations. The pie chart below displays the top 10 countries with the most cancellations.
 
 ![Top 10 countries](https://github.com/user-attachments/assets/82f2d51b-8d18-4b51-8f50-238a715fc555)
 
-Portugal accounts for the highest number of cancellations, making up 70% of the total cancellations.
+> **Portugal** accounts for the highest number of cancellations, making up 70% of the total cancellations.
+
+![Cancellations by market segment](https://github.com/user-attachments/assets/961534f6-0419-49f5-ba03-cc4c3654391c)
+
+> The pie chart reveals that **Online Travel Agencies(OTA)** bookings have the highest cancellation rates(**47%**). This can be due to the fact that customers on OTA platforms tend to compare multiple hotels and cancel frequently.
+
+![Cancellations by deposit type](https://github.com/user-attachments/assets/2493a7fb-b8ca-482f-9324-27fb2e4f1fc3)
+
+> Among all cancellations, the majority were from no deposit bookings (67%), followed by non-refundable bookings (32.79%), while refundable bookings had the least cancellations (0.08%).The high cancellation rate for no-deposit bookings suggests that customers may be making multiple reservations without a financial commitment, leading to last-minute cancellations.In contrast, non-refundable bookings still see cancellations but at a lower rate, indicating that some travelers are forced to cancel despite the financial penalty. Refundable bookings have the lowest cancellations, as travelers who choose this option are more likely to follow through with their stay.
+
+![Cancellations by customer type](https://github.com/user-attachments/assets/7c4f7b8b-5c4a-4287-af4d-c1f8474c9a20)
+
+> Individual(Transient) customers cancel the most, indicating they often book multiple options. Contracted customers and Group bookings have the lowest cancellation rates suggesting they are mostly commited once confirmed.
+
+![Waiting and Cancellations](https://github.com/user-attachments/assets/a1b610ce-e6cd-4438-a9d5-f8f20b9df5ea)
+
+> The strip plot analyzing waiting list days and cancellations shows no significant correlation between the two. This finding is unexpected, as it contradicts the common assumption that reservations left on the waiting list for extended periods are more likely to be canceled.
+
+![Lead time and Cancellations](https://github.com/user-attachments/assets/e8d319f6-f103-402f-ba7d-76ddcac5a8eb)
+
+> The strip plot analyzing lead time and cancellations reveals a weak to moderate positive correlation. This indicates that while cancellations tend to increase as lead time extends, the relationship is not particularly strong.
