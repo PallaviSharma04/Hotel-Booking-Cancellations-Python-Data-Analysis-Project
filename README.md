@@ -28,7 +28,7 @@ The City Hotel and Resort Hotel faces a significant challenge with booking cance
 ## Dataset
 Download the dataset for this project from the following link:
 
-**Data Source**: <a href ="https://github.com/PallaviSharma04/Hotel-Booking-Cancellations-Python-Data-Analysis-Project/blob/main/Hotel%20Booking%20Data%20Analysis%20using%20Python%20.ipynb"> Dataset </a>
+**Data Source**: <a href ="https://github.com/PallaviSharma04/Hotel-Booking-Cancellations-Python-Data-Analysis-Project/blob/main/hotel_bookings.csv"> Dataset </a>
 
 **Data Range**: July 2015 to Sep 2017
 
