@@ -1,4 +1,8 @@
 # Hotel Booking Cancellations (EDA Project)
+
+![Premium Vector _ Hotel booking concept background](https://github.com/user-attachments/assets/ba883e42-0045-4ed2-8a13-a2dbb9d74e13)
+
+
 ## Introduction  
 This project analyzes booking data of 2 hotels Resort Hotel and City Hotel to identify patterns in cancellations. By understanding cancellation trends, hotels can improve their revenue management and customer satisfaction strategies.  
 
