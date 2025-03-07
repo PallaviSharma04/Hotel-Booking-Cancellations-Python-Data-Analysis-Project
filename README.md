@@ -46,6 +46,7 @@ This analysis was conducted using:
 **1: Data Loading and Cleaning**
 
 - The dataset was loaded into a Pandas DataFrame.
+- The "reservation_status_date" column was converted to datetime format to facilitate time-based analysis.
 - Unnecessary columns ("agent" and "company") were dropped due to excessive missing values.
 - 488 rows with missing country data were removed.
 - Outliers in ADR (negative values and extreme high values) were identified and filtered out.
