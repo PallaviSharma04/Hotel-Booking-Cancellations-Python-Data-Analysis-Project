@@ -1,6 +1,6 @@
 # Hotel Booking Cancellations (EDA Project)
 
-![Premium Vector _ Hotel booking concept background](https://github.com/user-attachments/assets/ba883e42-0045-4ed2-8a13-a2dbb9d74e13)
+<img src="https://github.com/user-attachments/assets/ba883e42-0045-4ed2-8a13-a2dbb9d74e13" width="400" align="center" height="300">
 
 
 ## Introduction  
