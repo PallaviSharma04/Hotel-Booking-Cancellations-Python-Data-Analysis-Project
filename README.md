@@ -1,6 +1,7 @@
 # Hotel Booking Cancellations (EDA Project) 
 
-<img align="center" width="700" height="400" src="https://github.com/user-attachments/assets/43f499a2-c0ba-4183-8abf-412f4a4ba415">
+<img align="center" width="700" height="400" src="https://github.com/user-attachments/assets/6a338d50-6e10-4927-87c3-279d2e5f9b7c">
+
 
 ## Table of Contents
 - [Project Overview](#project-overview)
